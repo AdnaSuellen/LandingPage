@@ -3,16 +3,20 @@
     margin: 0;
     box-sizing: border-box;
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
+    overflow-x: hidden;
 }
-.image{
-    height: 100%;
-  
-    
+
+.image {
+
+    background: url(https://images.pexels.com/photos/14171630/pexels-photo-14171630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .body {
     background-color: black;
-    -webkit-filter: drop-shadow(30px 50px 90px #222);
-    filter: drop-shadow(50px 50px 50px #222);
 }
