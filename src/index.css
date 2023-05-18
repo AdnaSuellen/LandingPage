@@ -8,22 +8,30 @@
 }
 
 .image {
-    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\bolo.jpg);
+    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\Nuvens.png);
     background-attachment: fixed;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100vw;
 }
 
 .body {
+   
+    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\degrade.png);
+   height: 10vh;
+   background-color: black;
+}
+
+.footer {
     background-color: black;
 }
 
 #titulo {
-    color: rgb(124, 124, 135);
+    color: rgb(243, 243, 245);
     font-family: sans-serif;
-
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     margin-top:5%;
