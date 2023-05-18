@@ -5,10 +5,11 @@
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    background-color: black;
 }
 
 .image {
-    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\Nuvens.png);
+    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\CEU.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -20,13 +21,13 @@
 .body {
    
     background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\degrade.png);
-   height: 10vh;
-   background-color: black;
+    height: 50vh;
+    position: relative;
+    bottom:50%
+   
 }
 
-.footer {
-    background-color: black;
-}
+
 
 #titulo {
     color: rgb(243, 243, 245);
