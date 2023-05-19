@@ -5,29 +5,33 @@
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
+ 
 }
 
 .image {
-    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\CEU.png);
+    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\CEU.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .body {
-   
-    background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\degrade.png);
-    height: 50vh;
-    position: relative;
-    bottom:50%
-   
+   background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\plain.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+   bottom: 55%;
+
 }
-
-
 
 #titulo {
     color: rgb(243, 243, 245);
@@ -38,4 +42,16 @@
     margin-top:5%;
     animation: bounce;
     animation-duration: 2s;
+}
+
+.head {
+    color: white;
+    text-decoration: none;
+   margin: 40px;
+   margin-bottom: 50px;
+}
+
+.head:hover {
+    text-decoration: underline blue;
+    
 }
