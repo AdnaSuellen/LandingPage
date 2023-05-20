@@ -4,6 +4,7 @@ function App() {
     <div className="App">
        
       <div className="image"  style={{backgroundColor: 'black'}}>
+     
           <a href="#" className="head">HOME</a>
           <a href="#" className="head">QUEM SOMOS</a>
           <a href="#" className="head">PACOTES</a>

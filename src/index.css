@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
- 
+    background-color: black;
 }
 
 .image {
@@ -21,6 +21,7 @@
     color: white;
     font-weight: 500;
     font-size: 20px;
+    display: flex;
 }
 
 .body {
@@ -33,25 +34,18 @@
 
 }
 
-#titulo {
-    color: rgb(243, 243, 245);
-    font-family: sans-serif;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    margin-top:5%;
-    animation: bounce;
-    animation-duration: 2s;
-}
+
 
 .head {
     color: white;
     text-decoration: none;
    margin: 40px;
-   margin-bottom: 50px;
+   
+   background: transparent;
 }
 
 .head:hover {
-    text-decoration: underline blue;
-    
+    text-decoration: underline blue ;
+    transition: all 3s ease;
 }
+
