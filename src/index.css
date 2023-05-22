@@ -37,7 +37,6 @@
   color: white;
   text-decoration: none;
   margin: 40px;
-
   background: transparent;
 }
 
@@ -50,19 +49,26 @@
   background: transparent;
   margin-left: 40%;
   height: 40px;
-}
-
-.titulo,
-h1 {
-  background: transparent;
+  margin-top: 4%;
 }
 
 .container-inicio {
   background: transparent;
 }
 
-.img-titulo {
-  background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\NAME.png);
-  background-size: 200px;
-  background-repeat: no-repeat;
+.titulo-1 {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-2 {
+  height: 10%;
+  background: transparent;
+}
+.titulo-3 {
+  background: transparent;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }

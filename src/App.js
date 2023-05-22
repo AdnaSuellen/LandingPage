@@ -18,8 +18,9 @@ function App() {
               FALE CONOSCO
             </a>
           </div>
-          <div className="titulo">
-            <img className="img-titulo" />
+          <div className="titulo-1">
+            <h1 className="titulo-2">BELO</h1>
+            <h2 className="titulo-3">DESTINO</h2>
           </div>
         </div>
       </div>
