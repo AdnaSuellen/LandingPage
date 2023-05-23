@@ -60,15 +60,45 @@
   background: transparent;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin-top: 10%;
+  position: relative;
+  bottom: 6%;
+  width: 80px;
+  height: 10%;
 }
 .titulo-2 {
-  height: 10%;
   background: transparent;
+  height: 100%;
+  font-size: 15px;
+  margin-left: 10px;
 }
 .titulo-3 {
   background: transparent;
+  height: 100%;
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.texto {
+  background: transparent;
+  height: 100px;
+  margin-bottom: 800px;
+  margin-left: 1%;
+  width: 50%;
+}
+
+.texto1 {
+  background: transparent;
+  height: 50%;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+}
+
+.texto2 {
+  background: transparent;
+  height: 50%;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
 }

@@ -22,6 +22,14 @@ function App() {
             <h1 className="titulo-2">BELO</h1>
             <h2 className="titulo-3">DESTINO</h2>
           </div>
+          <div className="texto">
+            <p className="texto1">
+              Venha conosco e descubra o mundo através dos nossos pacotes.
+            </p>
+            <p className="texto2">
+              A viagem dos seus sonhos está a apenas um clique de distância.
+            </p>
+          </div>
         </div>
       </div>
       <div className="body"></div>
