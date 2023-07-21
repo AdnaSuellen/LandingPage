@@ -33,7 +33,24 @@ function App() {
         </div>
       </div>
       <div className="body"></div>
-      <div className="footer"></div>
+      <div className="main">
+        <div className="pacote-body">
+          <video
+            className="video-container"
+            autoplay=""
+            muted=""
+            plays-inline=""
+            loop
+            data-uia="nmhp-card-animation-asset-video"
+          >
+            <source
+              className="video"
+              src="cidade.mp4"
+              type="video/mp4"
+            ></source>
+          </video>
+        </div>
+      </div>
     </div>
   );
 }

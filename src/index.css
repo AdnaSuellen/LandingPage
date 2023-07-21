@@ -5,16 +5,16 @@
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  background-color: black;
+  background-color: #000000;
 }
 
 .image {
-  background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\CEU.jpg);
+  background: url(C:/Users/adna_/Documents/landing/landing-page/public/CEU.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   position: relative;
   font-family: "Roboto", sans-serif;
@@ -25,12 +25,24 @@
 }
 
 .body {
-  background: url(C:\Users\suely\Documents\Adna\programação\landing-page\public\plain.png);
+  background: url(C:/Users/adna_/Documents/landing/landing-page/public/plain2.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  bottom: 55%;
+  height: 300px;
+  bottom: 150px;
+}
+.image:after {
+  background: linear-gradient(to bottom, transparent 0%, #000000 100%);
+  bottom: 0;
+  content: "";
+  height: 60%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 259px;
+  width: 100%;
 }
 
 .head {
@@ -61,7 +73,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 6%;
+  bottom: 70px;
   width: 80px;
   height: 10%;
 }
@@ -78,27 +90,52 @@
   font-weight: 300;
   font-size: 15px;
   margin-left: 10px;
+  position: relative;
+  bottom: 10px;
 }
 
 .texto {
   background: transparent;
-  height: 100px;
-  margin-bottom: 800px;
-  margin-left: 1%;
+  height: 120px;
   width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
 }
 
 .texto1 {
   background: transparent;
-  height: 50%;
+  height: 60%;
   width: 100%;
   font-family: "Quicksand", sans-serif;
+  font-size: 25px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 .texto2 {
   background: transparent;
-  height: 50%;
+  height: 40%;
   width: 100%;
   font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.pacote-body {
+  display: absolute;
+  z-index: 1;
+  background-color: blue;
+}
+
+.video-container {
+  width: 40%;
+  margin: 0;
+  height: 40%;
 }
