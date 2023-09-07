@@ -2,30 +2,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
+  height: 100%;
   background-color: #000000;
 }
 
 .image {
-  background: url(C:/Users/adna_/Documents/landing/landing-page/public/CEU.jpg);
+  background: url(C:/Users/Adna_Suellen/Documents/Front-End/landing-page/public/CEU.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100vw;
-  position: relative;
+  height: 90%;
+  width: 100%;
   font-family: "Roboto", sans-serif;
   color: white;
   font-weight: 500;
   font-size: 20px;
-  display: flex;
+
+
 }
 
 .body {
-  background: url(C:/Users/adna_/Documents/landing/landing-page/public/plain2.png);
+  background: url(C:/Users/Adna_Suellen/Documents/Front-End/landing-page/public/plain2.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -34,10 +32,10 @@
   bottom: 150px;
 }
 .image:after {
-  background: linear-gradient(to bottom, transparent 0%, #000000 100%);
+  background: linear-gradient(to bottom, transparent 10%, #000000 100%);
   bottom: 0;
   content: "";
-  height: 60%;
+  height: 100%;
   left: 0;
   position: absolute;
   right: 0;
@@ -48,8 +46,12 @@
 .head {
   color: white;
   text-decoration: none;
-  margin: 40px;
   background: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+
 }
 
 .head:hover {
@@ -59,13 +61,29 @@
 
 .container {
   background: transparent;
-  margin-left: 40%;
-  height: 40px;
-  margin-top: 4%;
+  width: 60%; 
+  height: 10%;
+  display: flex;
+
+  margin: 0 50%;
 }
 
 .container-inicio {
   background: transparent;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto {
+  background: transparent;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45%;
+ 
 }
 
 .titulo-1 {
@@ -76,6 +94,7 @@
   bottom: 70px;
   width: 80px;
   height: 10%;
+  justify-content: center;
 }
 .titulo-2 {
   background: transparent;
@@ -94,14 +113,7 @@
   bottom: 10px;
 }
 
-.texto {
-  background: transparent;
-  height: 120px;
-  width: 50%;
-  margin: 0 auto;
-  position: relative;
-  top: 25%;
-}
+
 
 .texto1 {
   background: transparent;
@@ -122,20 +134,99 @@
   text-transform: uppercase;
 }
 
-.main {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: aqua;
-}
-
-.pacote-body {
-  display: absolute;
-  z-index: 1;
-  background-color: blue;
-}
-
 .video-container {
   width: 40%;
   margin: 0;
   height: 40%;
 }
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.picture {
+  width: 1000px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+ .pic1 {
+  width: 250px;
+  height: 150px;
+  border-radius: 2%;
+}
+
+.pic2{
+  width: 250px;
+  height: 150px;
+  border-radius: 2%;
+  
+}
+
+.pic3 {
+  width: 250px;
+  height: 150px;
+  border-radius: 2%;
+}
+
+.containerPic1 {
+  border-top: rgba(255, 255, 255, 0.164) solid 0.5px;
+  display: flex;
+  height: 200px;
+  border-width: thin;
+  border-top-style: dashed;
+}
+
+.textPic1 {
+  color:white;
+  font-family: "Quicksand", sans-serif;
+  height: 30px;
+  width: 100%;
+  font-weight: 700;
+}
+
+.textPic2{
+  color:white;
+  font-family: "Quicksand", sans-serif;
+  height: 30px;
+  width: 100%;
+  font-size: 13px;
+}
+
+.textPic3 {
+  color:white;
+  font-family: "Quicksand", sans-serif;
+  height: 30px;
+  width: 100%;
+  font-weight: 700;
+}
+
+.containerTextHeart {
+  display: flex;
+  justify-content: space-between;
+    width: 100%;
+}
+
+.containerText {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerHeart {
+  display: flex;
+  align-items: center;
+}
+
+.heartImage {
+  width: 20px;
+  height: 20px;
+
+}
+
+.imageBackground {
+  background-color: blueviolet;
+}
+
