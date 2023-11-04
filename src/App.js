@@ -32,6 +32,22 @@ const App = () => {
     setAlert1(true)
   }, 1000)
 
+  const Desejos = () => {
+    console.log("oi")
+    return (
+      <div
+        style={{
+          background: "white",
+          width: "100px",
+          height: "90px",
+          marginBottom: "100px",
+        }}
+      >
+        <p>Olá</p>
+      </div>
+    )
+  }
+
   return (
     <>
       <div className="image" style={{ backgroundColor: "black" }}>
@@ -50,10 +66,7 @@ const App = () => {
               FALE CONOSCO
             </a>
           </div>
-          {/* <div className="titulo-1">
-            <h1 className="titulo-2">BELO</h1>
-            <h2 className="titulo-3">DESTINO</h2>
-          </div> */}
+
           <div className="texto">
             <p className="texto1">
               Venha conosco e descubra o mundo através dos nossos pacotes.
@@ -92,20 +105,6 @@ const App = () => {
                   </>
                 ) : (
                   <>
-                    <Alert
-                      style={{
-                        backgroundColor: "transparent",
-                        color: "white",
-                        border: "solid 1px rgba(255, 255, 255, 0.164)",
-                        marginBottom: "40vh",
-                        height: "60px",
-                      }}
-                      severity="success"
-                      defaultValue={Timer}
-                      onScroll={Timer}
-                    >
-                      Adicionado à lista de desejos.
-                    </Alert>
                     <img
                       className="heartImage"
                       style={{ cursor: "pointer" }}
@@ -141,7 +140,6 @@ const App = () => {
                   />
                 ) : (
                   <>
-                    {" "}
                     <img
                       className="heartImage"
                       style={{ cursor: "pointer" }}
@@ -149,7 +147,6 @@ const App = () => {
                       onClick={ChangeStateButtom2}
                       src="/heart2.png"
                     />
-                    <Toast ref={toast} />
                   </>
                 )}
               </div>
